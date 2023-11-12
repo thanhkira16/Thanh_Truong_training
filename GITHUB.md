@@ -11,14 +11,14 @@
 - Writing Commit Messages: Use the imperative mood for clear communication and good collaboration habits.
 - `git log --oneline`: View commit history in a concise format.
 - Fixing Mistakes with Amend: Use when a file was missed in the previous commit.
-  + `git add <missing file>`  ->  `git commit --amend`
+  - `git add <missing file>` -> `git commit --amend`
 
 ### Ignore Files
 
 - Use `.gitignore` file to specify files or patterns to be ignored.
-  + `.filename`: Ignore files named 'filename'.
-  + `folderName/`: Ignore an entire directory.
-  + `*.log`: Ignore any file with the .log extension.
+  - `.filename`: Ignore files named 'filename'.
+  - `folderName/`: Ignore an entire directory.
+  - `*.log`: Ignore any file with the .log extension.
 
 ## Working with Branches
 
@@ -28,4 +28,3 @@
 - View All Branches: `git branch`
 - Create a New Branch: `git branch <name>`
 - Switch to Existing Branch: `git switch <name>`
-
