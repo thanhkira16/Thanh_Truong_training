@@ -1,4 +1,4 @@
-# Thanh Truong Training
+# Thanh Truong Gihub
 
 ## Git Basics: Adding and Committing
 
